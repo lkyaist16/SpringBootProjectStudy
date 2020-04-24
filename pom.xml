@@ -8,5 +8,11 @@
     <artifactId>SpringBootProjectStudy</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>Project-SpringBoot-0-init</module>
+    </modules>
+    <dependencies>
+
+    </dependencies>
 
 </project>

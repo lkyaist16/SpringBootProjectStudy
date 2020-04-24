@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /init
+spring:
+  application:
+    name: init
+  datasource:
+    url: jdbc:mysql://122.51.97.239:3306/demo?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      connection-init-sql: SET NAMES utf8mb4
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.lkyi.domain.po
+
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
