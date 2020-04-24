@@ -19,8 +19,6 @@ import java.util.Scanner;
  * mysql 代码生成器演示例子
  * </p>
  *
- * @author jobob
- * @since 2018-09-12
  */
 public class MysqlGenerator {
 
