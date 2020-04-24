@@ -54,7 +54,7 @@ public class Swagger2Configuration {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact = new Contact("", "", "");
+        Contact contact = new Contact("lkyi", "https://blog.csdn.net/zhuolou1208", "269577519@qq.com");
         return new ApiInfo("init-service",
                 "部分接口需要Token验证，可通过Authorize按钮输入Token",
                 "1.0.0",
