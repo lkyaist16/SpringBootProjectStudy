@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    addresses: 122.51.97.239:5672
+    username: admin
+    password: admin
+    virtual-host: /
+    connection-timeout: 15s
+server:
+  port: 8081
+  servlet:
+    context-path: consumer

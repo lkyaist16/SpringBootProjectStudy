@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Project-SpringBoot-0-init" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq/SpringBoot-rabbitmq-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq/SpringBoot-rabbitmq-producer" charset="UTF-8" />
   </component>
 </project>
