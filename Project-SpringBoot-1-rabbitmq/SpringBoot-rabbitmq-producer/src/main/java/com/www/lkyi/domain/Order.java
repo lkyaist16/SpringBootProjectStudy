@@ -2,10 +2,12 @@ package com.www.lkyi.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 
 @Data
+@Accessors(chain = true)
 @NoArgsConstructor
 public class Order implements Serializable {
     private static final long serialVersionUID = 8229086380909212145L;
