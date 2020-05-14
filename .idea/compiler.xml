@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Project-SpringBoot-0-init" />
         <module name="Project-SpringBoot-1-rabbitmq" />
-        <module name="SpringBoot-rabbitmq-consumer" />
         <module name="SpringBoot-rabbitmq-producer" />
+        <module name="Project-SpringBoot-0-init" />
+        <module name="SpringBoot-rabbitmq-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +19,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Project-SpringBoot-0-init" options="-parameters" />
+      <module name="SpringBoot-rabbitmq-consumer" options="-parameters" />
+      <module name="SpringBoot-rabbitmq-producer" options="-parameters" />
     </option>
   </component>
 </project>

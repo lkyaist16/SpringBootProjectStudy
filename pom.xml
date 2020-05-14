@@ -12,7 +12,6 @@
     <modules>
         <module>Project-SpringBoot-0-init</module>
         <module>Project-SpringBoot-1-rabbitmq</module>
-        <module>Project-SpringBoot-1-rabbitmq</module>
     </modules>
     <dependencies>
 
