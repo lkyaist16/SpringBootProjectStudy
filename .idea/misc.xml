@@ -4,11 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Project-SpringBoot-0-init/pom.xml" />
         <option value="$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq/SpringBoot-rabbitmq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq/SpringBoot-rabbitmq-producer/pom.xml" />
         <option value="$PROJECT_DIR$/Project-SpringBoot-2-seata/pom.xml" />
+        <option value="$PROJECT_DIR$/Project-SpringBoot-3-autoconfigure/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

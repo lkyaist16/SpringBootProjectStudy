@@ -26,3 +26,8 @@ mybatis-plus:
 logging:
   level:
     com.baomidou.mybatisplus.samples: debug
+
+lkyi:
+  hello:
+    prefix: prefix
+    suffix: suffix

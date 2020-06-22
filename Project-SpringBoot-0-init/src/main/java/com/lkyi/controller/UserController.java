@@ -2,13 +2,11 @@ package com.lkyi.controller;
 
 
 import com.lkyi.damain.po.User;
+import com.lkyi.demo.HelloService;
 import com.lkyi.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * <p>
@@ -25,6 +23,9 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private HelloService helloService;
+
     @ApiOperation("添加一个用户")
     @PostMapping("/insertOneUser")
     public String insertOneUser(@RequestBody User user) {
@@ -32,5 +33,10 @@ public class UserController {
         return "添加一个用户，result: " + result;
     }
 
+    @ApiOperation("测试自定义的starter")
+    @GetMapping("/hello")
+    public String hello() {
+        return helloService.sayHello("hahaha");
+    }
 
 }
