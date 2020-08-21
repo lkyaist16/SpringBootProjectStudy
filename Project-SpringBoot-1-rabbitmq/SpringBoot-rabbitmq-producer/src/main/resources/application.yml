@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: producer
+server:
+  port: 8082
+  servlet:
+    context-path: /producer
+rabbitmq:
+  host: 122.51.97.239
+  port: 5672
+  username: admin
+  password: admin
+  virtual-host: /

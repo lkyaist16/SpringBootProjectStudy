@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Project-SpringBoot-1-rabbitmq" />
+        <module name="Project-SpringBoot-2-seata" />
+        <module name="Project-SpringBoot-3-autoconfigure" />
+        <module name="sample" />
+        <module name="Project-SpringBoot-0-init" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Project-SpringBoot-0-init" target="1.8" />
+      <module name="Project-SpringBoot-1-rabbitmq" target="1.5" />
+      <module name="Project-SpringBoot-2-seata" target="1.8" />
+      <module name="Project-SpringBoot-3-autoconfigure" target="1.8" />
+      <module name="sample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Project-SpringBoot-0-init" options="-parameters" />
+      <module name="Project-SpringBoot-2-seata" options="-parameters" />
+      <module name="Project-SpringBoot-3-autoconfigure" options="-parameters" />
+      <module name="sample" options="-parameters" />
+    </option>
+  </component>
+</project>

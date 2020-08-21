@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project-SpringBoot-0-init/Project-SpringBoot-0-init.iml" filepath="$PROJECT_DIR$/Project-SpringBoot-0-init/Project-SpringBoot-0-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq/Project-SpringBoot-1-rabbitmq.iml" filepath="$PROJECT_DIR$/Project-SpringBoot-1-rabbitmq/Project-SpringBoot-1-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project-SpringBoot-2-seata/Project-SpringBoot-2-seata.iml" filepath="$PROJECT_DIR$/Project-SpringBoot-2-seata/Project-SpringBoot-2-seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project-SpringBoot-3-autoconfigure/Project-SpringBoot-3-autoconfigure.iml" filepath="$PROJECT_DIR$/Project-SpringBoot-3-autoconfigure/Project-SpringBoot-3-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample.iml" filepath="$PROJECT_DIR$/sample.iml" />
+    </modules>
+  </component>
+</project>
