@@ -6,26 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Project-SpringBoot-1-rabbitmq" />
-        <module name="Project-SpringBoot-2-seata" />
-        <module name="Project-SpringBoot-3-autoconfigure" />
         <module name="sample" />
+        <module name="Project-SpringBoot-2-seata" />
+        <module name="lkyi (1)" />
+        <module name="lkyi (2)" />
+        <module name="SpringBoot-rabbitmq-producer" />
         <module name="Project-SpringBoot-0-init" />
+        <module name="Project-SpringBoot-1-rabbitmq" />
+        <module name="Project-SpringBoot-3-autoconfigure" />
+        <module name="SpringBoot-rabbitmq-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lkyi (1)" target="1.8" />
+      <module name="lkyi (2)" target="1.8" />
       <module name="Project-SpringBoot-0-init" target="1.8" />
-      <module name="Project-SpringBoot-1-rabbitmq" target="1.5" />
+      <module name="Project-SpringBoot-1-rabbitmq" target="1.8" />
       <module name="Project-SpringBoot-2-seata" target="1.8" />
       <module name="Project-SpringBoot-3-autoconfigure" target="1.8" />
       <module name="sample" target="1.8" />
+      <module name="SpringBoot-rabbitmq-consumer" target="1.8" />
+      <module name="SpringBoot-rabbitmq-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Project-SpringBoot-0-init" options="-parameters" />
+      <module name="Project-SpringBoot-1-rabbitmq" options="-parameters" />
       <module name="Project-SpringBoot-2-seata" options="-parameters" />
       <module name="Project-SpringBoot-3-autoconfigure" options="-parameters" />
+      <module name="SpringBoot-rabbitmq-consumer" options="-parameters" />
+      <module name="SpringBoot-rabbitmq-producer" options="-parameters" />
+      <module name="lkyi (1)" options="-parameters" />
+      <module name="lkyi (2)" options="-parameters" />
       <module name="sample" options="-parameters" />
     </option>
   </component>
