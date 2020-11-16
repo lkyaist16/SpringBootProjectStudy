@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 122.51.97.239:8848
+        service: ${spring.application.name}
+        namespace: 17c384d5-1096-4a07-9595-5302ceed770d
+server:
+  port: 4001

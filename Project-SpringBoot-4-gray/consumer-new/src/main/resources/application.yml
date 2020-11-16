@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 122.51.97.239:8848
+        service: ${spring.application.name}
+        namespace: 17c384d5-1096-4a07-9595-5302ceed770d
+        metadata:
+          version: 1.1
+server:
+  port: 4000
+  servlet:
+    context-path: /consumer
+
+nacos:
+  server-addr: 122.51.97.239:8848
+  plugin:
+    namespace: 17c384d5-1096-4a07-9595-5302ceed770d
